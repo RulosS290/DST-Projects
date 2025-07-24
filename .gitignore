@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Archivos temporales de sistema
+*.swp
+*.swo
+
+# Node.js (si usas React o JavaScript)
+node_modules/
+dist/
+.env
