@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# 💸 Expense Control - Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🖥️ **Live demo:** [Expense Control](https://expense-control-dst.netlify.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 Overview
 
-## Expanding the ESLint configuration
+**Expense Control** is a web application built with **React** and **TypeScript** that allows users to manage and visualize their personal expenses.  
+It was developed to practice the use of **React Context API** for global state management and **localStorage** for data persistence.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎯 Main Objectives
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Manage and track expenses efficiently.
+- Apply React Context API for state sharing.
+- Use TypeScript for strong typing and maintainability.
+- Implement data persistence with localStorage.
+- Style the interface with TailwindCSS.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🧱 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Add, edit, and delete expenses.  
+- Calculate remaining budget dynamically.  
+- Persist data even after refreshing the browser.  
+- Responsive and modern UI built with TailwindCSS.  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🛠️ Technologies Used
+
+- **React 19**
+- **TypeScript**
+- **Vite**
+- **TailwindCSS**
+- **Context API**
+- **localStorage**
+
+---
+
+### 🚀 How to Run Locally
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/RulosS290/DST-Projects.git
+cd React-TypeScript/Projects/Expense\ Control-ContextAPI
+npm install
+npm run dev
+
