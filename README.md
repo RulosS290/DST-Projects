@@ -39,8 +39,6 @@ I continuously improve existing projects and add new ones as I explore new techn
 
 ## 🧩 Repository Structure
 
-### 📁 Repository Structure
-
 ```text
 DST-Projects/
 │
