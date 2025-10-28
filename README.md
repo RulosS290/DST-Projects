@@ -1,27 +1,35 @@
 # 📚 DST Projects
 
-Welcome to **DST Projects**, a personal repository created for **learning, experimentation, and portfolio building**.  
-It contains multiple **React + TypeScript projects** and other web development experiments — each focused on practicing new tools, patterns, or best practices in modern frontend development.
+Welcome to **DST Projects**, my main repository for **learning, experimentation, and portfolio building**.  
+It contains multiple **frontend projects** built with React, TypeScript, and TailwindCSS — plus links to **external full-stack repositories** where I integrate Node.js and backend services.
+
+This repository serves as a **central hub** that showcases my development journey across different stacks and technologies.
 
 ---
 
 ## 🎯 Goal
 
-This repository documents my **learning journey** in software development — from basic concepts to advanced patterns — while showcasing clean, well-structured, and scalable code.
+The goal of this repository is to **document and centralize** my progress as a developer —  
+from mastering frontend tools and design systems, to building complete full-stack applications in dedicated repositories.
 
-I continuously improve existing projects and add new ones as I explore new technologies.
+I aim to maintain:
+- Clean and scalable codebases  
+- Consistent project organization  
+- Clear separation between frontend and backend projects  
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Link | Live Demo |
-|----------|--------------|-----------|-------|
-| 🎸 **Guitar App** | Progressive versions to learn React, TypeScript, and hooks. | [Open](./React-TypeScript/Projects/Guitars) | [GuitarLA](https://guitarla-dst.netlify.app/) |
-| 🧮 **Tip Calculator** | Simple and elegant calculator to split tips among people. | [Open](./React-TypeScript/Projects/Tip%20Calculator)  | [TipCalculator](https://tipcalculator-dst.netlify.app/) |
-| 💸 **Expense Control** | Manage and track expenses using Context API. | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI)  | [Expense Control](https://expense-control-dst.netlify.app/) |
+| Project | Stack | Description | Link | Live Demo |
+|----------|--------|--------------|-----------|-------|
+| 🎸 **Guitar App** | React + TypeScript | Progressive versions to learn React, TypeScript, and hooks. | [Open](./React-TypeScript/Projects/Guitar) | [GuitarLA](https://guitarla-dst.netlify.app/) |
+| 🧮 **Tip Calculator** | React + TypeScript | Simple and elegant calculator to split tips among people. | [Open](./React-TypeScript/Projects/Tip%20Calculator) | [TipCalculator](https://tipcalculator-dst.netlify.app/) |
+| 💸 **Expense Control** | React + TypeScript | Manage and track expenses using Context API. | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI) | [Expense Control](https://expense-control-dst.netlify.app/) |
+| 🏠 **Landing Page** | TailwindCSS | Minimalist landing page built to practice TailwindCSS fundamentals, layouts, and responsive design. | In progress | 🔜 Coming soon |
+| ⚙️ **Full-Stack Projects (External)** | React + Node.js | Future apps combining frontend and backend with REST APIs and databases. | Soon | 🔜 Coming soon |
 
-> 🔜 More projects coming soon — each focused on mastering a new concept or technology.
+> 🚧 **More projects coming soon** — each focused on mastering a new stack or concept, from frontend design to backend development.
 
 ---
 
@@ -31,8 +39,11 @@ I continuously improve existing projects and add new ones as I explore new techn
 - **TypeScript**
 - **Vite**
 - **TailwindCSS**
+- **Node.js (external repos)**
+- **Express (external repos)**
 - **Context API / Custom Hooks**
 - **LocalStorage & State Management**
+- **REST API Design**
 - **Clean Architecture Principles**
 
 ---
@@ -48,6 +59,13 @@ DST-Projects/
 │   │   ├── Tip Calculator/
 │   │   └── Expense Control-ContextAPI/
 │   └── ...
+│
+├── TailwindCSS/
+│   ├── Projects/
+│   │   └── Landing Page/
+│   └── ...
+│
+└── (External Full-Stack Repositories)
 ```
 
 ---
