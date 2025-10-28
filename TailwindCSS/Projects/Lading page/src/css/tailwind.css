@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme{
+    --font-inter: "Inter", sans-serif;
+
+    --color-primary: #121416;
+    --color-button: #dce8f3;
+    --color-border-page: #2c3135;
+
+    --color-secondary: #1e2124;
+    --color-text-card: #929ba2;
+
+    --breakpoint-md: 52rem;
+}
+
+:root{
+    --icon-menu-open: url('../assets/menu.svg');
+    --icon-menu-close: url('../assets/close.svg');
+    --icon-code: url('../assets/code.svg');
+
+    --hero-image: linear-gradient(#474646c5, #000000ef), url('../assets/img/code.jpg');
+}
