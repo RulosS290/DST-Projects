@@ -1,21 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/image.ico" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/image.ico" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Landing Page</title>
-</head>
-<body class="bg-primary font-inter">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing-page</title>
+  </head>
+  <body class="bg-primary font-inter">
 
     <nav class="py-6 border-2 border-border-page h-auto">
         <div class="flex w-9/10 mx-auto justify-between">
             <a href="#" class="block w-36 relative z-10 pointer-events-none">
-                <img src="./assets/logo.svg" alt="Logo" class="w-full h-auto invert">
+                <img src="./src/assets/logo.svg" alt="Logo" class="w-full h-auto invert">
             </a>
 
             <label class="size-8 
@@ -33,13 +34,14 @@
                 <input type="checkbox" class="hidden">
             </label>
 
-            <ul class="text-white absolute inset-0
+            <ul class="text-white fixed inset-0
                 bg-primary
                 flex flex-col gap-8 justify-center items-center
                 -translate-y-full
                 peer-has-checked/label:translate-y-0
-                
-                md:static md:translate-0 md:flex-row">
+                peer-has-checked/label:z-1
+                h-screen
+                md:static md:translate-0 md:flex-row md:h-auto md:z-auto">
                 <li>
                     <a href="#">About</a>
                 </li>
@@ -54,41 +56,41 @@
     
     <section class="bg-(image:--hero-image)
         bg-center bg-cover
-        w-9/10 mx-auto rounded-3xl min-h-80
+        w-9/10 mx-auto rounded-3xl min-h-100
         flex flex-col gap-4
         justify-center items-center
-        text-white p-8 my-2 text-center
+        text-white p-8 mt-8 mb-4 text-center
         md:text-left md:justify-end
         md:items-start md:pb-20">
         <h1 class="text-4xl font-bold md:text-5xl">TailwindCSS</h1>
         <p>This project was created to practice and demonstrate the fundamentals of TailwindCSS in a modern and responsive layout.</p>
-        <a href="#" class="bg-button py-4 px-6 rounded-full text-primary">Repository</a>
+        <a href="https://github.com/RulosS290/DST-Projects/tree/main/TailwindCSS/Projects/Lading%20page" class="bg-button py-4 px-6 rounded-full text-primary">Repository</a>
     </section>
 
     <section class="w-9/10 mx-auto py-2 text-white">
-        <h2 class="text-center font-bold text-xl md:text-2xl md:text-left pl-12">Applied Topics</h2>
+        <h2 class="text-center font-bold text-xl md:text-2xl max-md:text-left pl-12">Applied Topics</h2>
 
-        <div class="mt-4 flex flex-wrap justify-center gap-4">
-            <article class="border border-border-page bg-secondary w-full max-w-70 rounded-xl p-4">
-                <img src="./assets/box.svg" class="size-4 invert">
+        <div class="mt-4 mb-10 flex flex-wrap justify-evenly gap-4">
+            <article class="border border-border-page bg-secondary w-full max-w-80 rounded-xl p-4">
+                <img src="./src/assets/box.svg" class="size-4 invert">
                 <h3 class="text-xl font-bold pt-2">Box Model</h3>
                 <p>The box model defines how margins, borders, padding, and content interact in an element. Understanding it is essential for precise and consistent layout control.</p>
             </article>
 
-            <article class="border border-border-page bg-secondary w-full max-w-70 rounded-xl p-4">
-                <img src="./assets/flex-box.svg" class="size-4.5 invert">
+            <article class="border border-border-page bg-secondary w-full max-w-80 rounded-xl p-4">
+                <img src="./src/assets/flex-box.svg" class="size-4.5 invert">
                 <h3 class="text-xl font-bold pt-2">Flexbox</h3>
                 <p>Flexbox simplifies alignment and spacing in one-dimensional layouts, making it easier to build responsive and adaptive designs without complex CSS rules.</p>
             </article>
 
-            <article class="border border-border-page bg-secondary w-full max-w-70 rounded-xl p-4">
-                <img src="./assets/design.svg" class="size-4 invert">
+            <article class="border border-border-page bg-secondary w-full max-w-80 rounded-xl p-4">
+                <img src="./src/assets/design.svg" class="size-4 invert">
                 <h3 class="text-xl font-bold pt-2">Responsive Design</h3>
                 <p>Responsive design ensures that a website adapts to any screen size, providing a seamless user experience across mobile, tablet, and desktop devices.</p>
             </article>
 
-            <article class="border border-border-page bg-secondary w-full max-w-70 rounded-xl p-4">
-                <img src="./assets/pseudoclass.svg" class="size-4 invert">
+            <article class="border border-border-page bg-secondary w-full max-w-80 rounded-xl p-4">
+                <img src="./src/assets/pseudoclass.svg" class="size-4 invert">
                 <h3 class="text-xl font-bold pt-2">Pseudo-classes</h3>
                 <p>Pseudo-classes such as <code>:hover</code> or <code>:focus</code> let you style elements dynamically based on user interaction, improving accessibility and usability.</p>
             </article>
@@ -110,11 +112,11 @@
                     </li>
                 </ul>
 
-                <p class="text-center mt-6">
+                <p class="text-center mt-3">
                     &copy; 2024 TailwindCSS Landing Page. All rights reserved.
                 </p>
             </nav>
         </div>
     </footer>
-</body>
+  </body>
 </html>
