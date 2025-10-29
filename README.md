@@ -58,7 +58,8 @@ DST-Projects/
 │   ├── Projects/
 │   │   ├── Guitar/
 │   │   ├── Tip Calculator/
-│   │   └── Expense Control-ContextAPI/
+│   │   ├── Expense Control-ContextAPI/
+|   |   └── Calorie Tracker
 │   └── ...
 │
 ├── TailwindCSS/
