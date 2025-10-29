@@ -22,7 +22,7 @@ Show the evolution of the same project as new features are added:
 | Version        | Main focus                 | Description                                                                                                  | Link                                                                                                                        |
 | -------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | **v1**         | React + TypeScript basics  | Initial structure using functional components, props, and local state to handle daily calorie tracking.      | [Go to calorie-tracker-v1](https://github.com/RulosS290/DST-Projects/tree/main/React-TypeScript/Projects/Calorie%20Tracker/v1) |
-| **v2 (final)** | Context API + Global State | Refactored to use Context for global state management (meals, calories, goals) and cleaner logic separation. | [Go to calorie-tracker-v1](https://github.com/RulosS290/DST-Projects/tree/main/React-TypeScript/Projects/Calorie%20Tracker/v2)                                                                                                             |
+| **v2 (final)** | Context API + Global State | Refactored to use Context for global state management (meals, calories, goals) and cleaner logic separation. | [Go to calorie-tracker-v2](https://github.com/RulosS290/DST-Projects/tree/main/React-TypeScript/Projects/Calorie%20Tracker/v2)                                                                                                             |
 
 ---
 
