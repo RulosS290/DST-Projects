@@ -27,6 +27,7 @@ I aim to maintain:
 | 🧮 **Tip Calculator** | React + TypeScript | Simple and elegant calculator to split tips among people. | [Open](./React-TypeScript/Projects/Tip%20Calculator) | [TipCalculator](https://tipcalculator-dst.netlify.app/) |
 | 💸 **Expense Control** | React + TypeScript | Manage and track expenses using Context API. | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI) | [Expense Control](https://expense-control-dst.netlify.app/) |
 | 🏠 **Landing Page** | TailwindCSS | Minimalist landing page built to practice TailwindCSS fundamentals, layouts, and responsive design. | [Open](./TailwindCSS/Projects/landing%20page) | [Landing Page](https://landingpage-dst.netlify.app/) |
+| 🍎 **Calorie Tracker** | React + TypeScript | Track daily calorie intake and goals. Will evolve from local state to global Context management. | [Open](./React-TypeScript/Projects/Calorie%20Tracker) | [Calorie Counter](https://calororie-counter-dst.netlify.app/)
 | ⚙️ **Full-Stack Projects (External)** | React + Node.js | Future apps combining frontend and backend with REST APIs and databases. | Soon | 🔜 Coming soon |
 
 > 🚧 **More projects coming soon** — each focused on mastering a new stack or concept, from frontend design to backend development.
