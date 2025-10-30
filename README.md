@@ -48,6 +48,8 @@ I aim to maintain:
 - **REST API Design**
 - **Clean Architecture Principles**
 
+- **State Management:** Context API, Zustand, and Custom Hooks
+
 ---
 
 ## 🧩 Repository Structure
@@ -60,7 +62,8 @@ DST-Projects/
 │   │   ├── Guitar/
 │   │   ├── Tip Calculator/
 │   │   ├── Expense Control-ContextAPI/
-|   |   └── Calorie Tracker
+|   |   ├── Calorie Tracker/
+|   |   └── PatientTracker/
 │   └── ...
 │
 ├── TailwindCSS/
