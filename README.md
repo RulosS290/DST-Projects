@@ -23,7 +23,7 @@ I aim to maintain:
 
 | Project | Stack | Description | Link | Live Demo |
 |----------|--------|--------------|-----------|-------|
-| 🎸 **Guitar App** | React + TypeScript | Progressive versions to learn React, TypeScript, and hooks. | [Open](./React-TypeScript/Projects/Guitar) | [GuitarLA](https://guitarla-dst.netlify.app/) |
+| 🎸 **Guitar App** | React + TypeScript | Progressive versions to learn React, TypeScript, and hooks. | [Open](./React-TypeScript/Projects/Guitars) | [GuitarLA](https://guitarla-dst.netlify.app/) |
 | 🧮 **Tip Calculator** | React + TypeScript | Simple and elegant calculator to split tips among people. | [Open](./React-TypeScript/Projects/Tip%20Calculator) | [TipCalculator](https://tipcalculator-dst.netlify.app/) |
 | 💸 **Expense Control** | React + TypeScript | Manage and track expenses using Context API. | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI) | [Expense Control](https://expense-control-dst.netlify.app/) |
 | 🍎 **Calorie Tracker** | React + TypeScript | Track daily calorie intake and goals. Will evolve from local state to global Context management. | [Open](./React-TypeScript/Projects/Calorie%20Tracker) | [Calorie Counter](https://calororie-counter-dst.netlify.app/)|
