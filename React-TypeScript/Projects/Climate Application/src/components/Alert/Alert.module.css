@@ -1,0 +1,9 @@
+.alert {
+    text-align: center;
+    color: #ac0808;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
