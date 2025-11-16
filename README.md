@@ -46,7 +46,8 @@ I aim to maintain:
 * **TypeScript**
 * **Vite**
 * **TailwindCSS**
-* **CSS (sin CSS Modules en algunos proyectos)**
+* **CSS**
+* **CSSMODULES**
 * **React Hooks / Custom Hooks**
 
 ### **State Management**
