@@ -1,4 +1,4 @@
-# 💱 Crypto Price Tracker – React + TypeScript
+# 💱 Crypto Price Tracker
 
 🖥️ **Live demo:** [Crypto Tracker](https://cryptoapp-dst.netlify.app/)
 
