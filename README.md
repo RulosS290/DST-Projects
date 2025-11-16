@@ -23,16 +23,17 @@ I aim to maintain:
 
 ## 🚀 Featured Projects
 
-| Project                               | Stack                              | Description                                                                                                               | Link                                                             | Live Demo                                                                         |
-| ------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 🎸 **Guitar App**                     | React + TypeScript                 | Progressive versions to learn React, TypeScript, and hooks.                                                               | [Open](./React-TypeScript/Projects/Guitars)                      | [GuitarLA](https://guitarla-dst.netlify.app/)                                     |
-| 🧮 **Tip Calculator**                 | React + TypeScript                 | Elegant app to split tips among people.                                                                                   | [Open](./React-TypeScript/Projects/Tip%20Calculator)             | [TipCalculator](https://tipcalculator-dst.netlify.app/)                           |
-| 💸 **Expense Control**                | React + TypeScript                 | Manage expenses using Context API and controlled components.                                                              | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI) | [Expense Control](https://expense-control-dst.netlify.app/)                       |
-| 🍎 **Calorie Tracker**                | React + TypeScript                 | Track calorie intake with future global state refactor.                                                                   | [Open](./React-TypeScript/Projects/Calorie%20Tracker)            | [Calorie Counter](https://calororie-counter-dst.netlify.app/)                     |
-| 🩺 **Veterinary Patient Manager**     | React + TypeScript + Zustand       | Manage veterinary patients with global state using Zustand + devtools.                                                    | [Open](./React-TypeScript/Projects/VeterinaryPatientTracker)     | [Veterinary Patient Tracker](https://veterinary-patient-tracker-dst.netlify.app/) |
-| 🪙 **Crypto Price Tracker**     | React + TypeScript + Zustand + Zod | Cryptocurrency price tracker using CryptoCompare API, schema validation (Zod) and global store. | [Open](./React-TypeScript/Projects/Crypto)               | [Cryto Tracker ](https://cryptoapp-dst.netlify.app/)                                                                   |
-| 🏠 **Landing Page**                   | TailwindCSS                        | Minimalist landing page practicing responsive layouts and modern utility-first styling.                                   | [Open](./TailwindCSS/Projects/landing%20page)                    | [Landing Page](https://landingpage-dst.netlify.app/)                              |
-| ⚙️ **Full-Stack Projects (External)** | React + Node.js                    | REST APIs with Express + backend services.                                                                                | Soon                                                             | 🔜 Coming soon                                                                    |
+| Project                           | Stack                               | Description                                                                                        | Link                                                             | Live Demo                                                                         |
+| --------------------------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 🎸 **Guitar App**                 | React + TypeScript                  | Progressive versions to learn React, TypeScript, and hooks.                                        | [Open](./React-TypeScript/Projects/Guitars)                      | [GuitarLA](https://guitarla-dst.netlify.app/)                                     |
+| 🧮 **Tip Calculator**             | React + TypeScript                  | Elegant app to split tips among people.                                                            | [Open](./React-TypeScript/Projects/Tip%20Calculator)             | [TipCalculator](https://tipcalculator-dst.netlify.app/)                           |
+| 💸 **Expense Control**            | React + TypeScript                  | Manage expenses using Context API and controlled components.                                       | [Open](./React-TypeScript/Projects/Expense%20Control-ContextAPI) | [Expense Control](https://expense-control-dst.netlify.app/)                       |
+| 🍎 **Calorie Tracker**            | React + TypeScript                  | Track calorie intake with future global state refactor.                                            | [Open](./React-TypeScript/Projects/Calorie%20Tracker)            | [Calorie Counter](https://calororie-counter-dst.netlify.app/)                     |
+| 🩺 **Veterinary Patient Manager** | React + TypeScript + Zustand        | Manage veterinary patients with global state using Zustand + devtools.                             | [Open](./React-TypeScript/Projects/VeterinaryPatientTracker)     | [Veterinary Patient Tracker](https://veterinary-patient-tracker-dst.netlify.app/) |
+| 🌦️ **Climate Application**       | React + TypeScript + Valibot | Real-time weather app that shows temperature, conditions and min/max values using OpenWeather API. | [Open](./React-TypeScript/Projects/Climate%20Application)        | [Climate Application](https://climateapplication-dst.netlify.app/)                |
+| 🪙 **Crypto Price Tracker**       | React + TypeScript + Zustand + Zod  | Cryptocurrency price tracker using CryptoCompare API, schema validation (Zod) and global store.    | [Open](./React-TypeScript/Projects/Crypto)                       | [Crypto Tracker](https://cryptoapp-dst.netlify.app/)                              |
+| 🏠 **Landing Page**               | TailwindCSS                         | Minimalist landing page practicing responsive layouts and modern utility-first styling.            | [Open](./TailwindCSS/Projects/landing%20page)                    | [Landing Page](https://landingpage-dst.netlify.app/)                              |
+| ⚙️ **Full-Stack Projects**        | React + Node.js                     | REST APIs with Express + backend services.                                                         | Soon                                                             | 🔜 Coming soon                                                                    |
 
 > 🚧 **More projects are continually added** — each focused on mastering a new concept, from UI architecture to backend API development.
 
@@ -42,32 +43,33 @@ I aim to maintain:
 
 ### **Frontend**
 
-* **React 19**
-* **TypeScript**
-* **Vite**
-* **TailwindCSS**
-* **CSS**
-* **CSSMODULES**
-* **React Hooks / Custom Hooks**
+* React 19
+* TypeScript
+* Vite
+* TailwindCSS
+* CSS
+* CSS Modules
+* React Hooks & Custom Hooks
 
 ### **State Management**
 
-* **Context API**
-* **Zustand** (devtools, slices, selectors)
-* **LocalStorage persistence**
+* Context API
+* Zustand (devtools, slices, selectors)
+* LocalStorage persistence
 
 ### **Validation & Data Handling**
 
-* **Zod** (schema validation)
-* **REST API consumption**
-* **Error handling patterns**
+* Zod
+* Valibot
+* Runtime type validation
+* API consumption & error handling patterns
 
 ### **Backend (External Repos)**
 
-* **Node.js**
-* **Express**
-* **REST API design**
-* **Clean Architecture principles**
+* Node.js
+* Express
+* REST API design
+* Clean Architecture principles
 
 ---
 
@@ -82,8 +84,9 @@ DST-Projects/
 │   │   ├── Tip Calculator/
 │   │   ├── Expense Control-ContextAPI/
 │   │   ├── Calorie Tracker/
-│   │   ├── PatientTracker/
-│   │   └── Crypto/
+│   │   ├── VeterinaryPatientTracker/
+│   │   ├── Crypto/
+│   │   └── Climate Application/
 │   └── ...
 │
 ├── TailwindCSS/
@@ -99,3 +102,9 @@ DST-Projects/
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+---
+
+### ¿Quieres que también genere un **README específico** dentro del directorio del proyecto *Climate Application*?
+
+Puedo prepararlo listo para pegar, con instalación, estructura, features y screenshots si tienes.
