@@ -60,7 +60,6 @@ This feature allows the app to:
 * Respond using a professional bartender persona.
 
 The app works perfectly **without AI**.
-The AI module is only enabled if an API key is provided.
 
 ### 🔧 Implementation Example
 
