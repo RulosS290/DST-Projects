@@ -32,6 +32,7 @@ I aim to maintain:
 | 🩺 **Veterinary Patient Manager** | React + TypeScript + Zustand        | Manage veterinary patients with global state using Zustand + devtools.                             | [Open](./React-TypeScript/Projects/VeterinaryPatientTracker)     | [Veterinary Patient Tracker](https://veterinary-patient-tracker-dst.netlify.app/) |
 | 🌦️ **Climate Application**       | React + TypeScript + Valibot | Real-time weather app that shows temperature, conditions and min/max values using OpenWeather API. | [Open](./React-TypeScript/Projects/Climate%20Application)        | [Climate Application](https://climateapplication-dst.netlify.app/)                |
 | 🪙 **Crypto Price Tracker**       | React + TypeScript + Zustand + Zod  | Cryptocurrency price tracker using CryptoCompare API, schema validation (Zod) and global store.    | [Open](./React-TypeScript/Projects/Crypto)                       | [Crypto Tracker](https://cryptoapp-dst.netlify.app/)                              |
+| 🍹 **Beverage Search App**        | React + TypeScript + Zustand + Zod + AI | Search and explore cocktails using TheCocktailDB + optional AI recipe generator.      | [Open](./React-TypeScript/Projects/BeverageSearch)                  | [Beverage Search](https://beveragesearch-dst.netlify.app/)                                |
 | 🏠 **Landing Page**               | TailwindCSS                         | Minimalist landing page practicing responsive layouts and modern utility-first styling.            | [Open](./TailwindCSS/Projects/landing%20page)                    | [Landing Page](https://landingpage-dst.netlify.app/)                              |
 | ⚙️ **Full-Stack Projects**        | React + Node.js                     | REST APIs with Express + backend services.                                                         | Soon                                                             | 🔜 Coming soon                                                                    |
 
@@ -71,6 +72,15 @@ I aim to maintain:
 * REST API design
 * Clean Architecture principles
 
+### **AI & LLM Integration**
+
+* OpenRouter
+* Llama 3.3 Models (and other open-source models)
+* Streaming AI responses (`textStream`)
+* Prompt engineering & system prompts
+* Optional feature flags (AI enabled only with API key)
+* Clean integration patterns in React + TypeScript
+  
 ---
 
 ## 🧩 Repository Structure
@@ -86,6 +96,7 @@ DST-Projects/
 │   │   ├── Calorie Tracker/
 │   │   ├── VeterinaryPatientTracker/
 │   │   ├── Crypto/
+|   |   ├── BeverageSearch/
 │   │   └── Climate Application/
 │   └── ...
 │
@@ -102,9 +113,3 @@ DST-Projects/
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
-### ¿Quieres que también genere un **README específico** dentro del directorio del proyecto *Climate Application*?
-
-Puedo prepararlo listo para pegar, con instalación, estructura, features y screenshots si tienes.
