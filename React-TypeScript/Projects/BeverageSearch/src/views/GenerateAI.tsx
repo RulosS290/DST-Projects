@@ -12,7 +12,7 @@ export default function GenerateAI() {
 
         if(prompt.trim() === '') {
             showNotification({
-                text: 'La busqueda no puede ir vacia',
+                text: 'The search field cannot be empty',
                 error: true
             })
             return
@@ -23,7 +23,7 @@ export default function GenerateAI() {
 
     return (
         <>
-        <h1 className="text-6xl font-extrabold">Generar Receta con IA</h1>
+        <h1 className="text-6xl font-extrabold">Generate Recipe with AI</h1>
 
         <div className="max-w-4xl mx-auto">
             <form  
@@ -35,7 +35,7 @@ export default function GenerateAI() {
                 name="prompt" 
                 id="prompt" 
                 className="border bg-white p-4 rounded-lg w-full border-slate-800" 
-                placeholder="Genera una receta con ingredientes. Ej. Bebida con Tequila y Fresa"
+                placeholder="Generate a recipe with ingredients. e.g. Drink with Tequila and Strawberry"
                 />
                 <button 
                 type="submit" 
@@ -51,7 +51,7 @@ export default function GenerateAI() {
                 </button>
             </div>
             </form>
-            {isGenerating && <p className='text-center animate-pulse'>Generando...</p>}
+            {isGenerating && <p className='text-center animate-pulse'>Generating...</p>}
             <div key={recipe.length}
                 className="
                     py-10 whitespace-pre-wrap text-center

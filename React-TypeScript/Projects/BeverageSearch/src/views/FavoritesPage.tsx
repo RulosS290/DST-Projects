@@ -7,7 +7,7 @@ export default function FavoritesPage() {
 
     return (
         <>
-            <h1 className='text-6xl font-extrabold'>Favoritos</h1>
+            <h1 className='text-6xl font-extrabold'>Favorites</h1>
 
             {favorites.length 
                 ? <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 my-10 gap-10'>
@@ -19,7 +19,7 @@ export default function FavoritesPage() {
                         />
                     ))}
                 </div>
-                : <p className='my-10 text-center text-2xl'>Los favoritos se mostraran aqui</p>
+                : <p className='my-10 text-center text-2xl'>Your favorite drinks will appear here</p>
             }
         </>
     )

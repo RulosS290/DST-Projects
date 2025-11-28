@@ -72,13 +72,13 @@ export default function Modal() {
                                         className='mx-auto w-80 shadow-xl'
                                     />
                                     <Dialog.Title as="h3" className="text-gray-900 text-2xl font-extrabold my-5">
-                                        Ingredientes y Cantidades
+                                        Ingredients & Measurements
                                     </Dialog.Title>
                                     <ol className='list-decimal list-inside space-y-1 marker:font-semibold'>
                                             {renderIngredients()}
                                     </ol>
                                     <Dialog.Title as="h3" className="text-gray-900 text-2xl font-extrabold my-5">
-                                        Instrucciones
+                                        Instructions
                                     </Dialog.Title>
 
                                     <p className='text-lg'>
@@ -91,7 +91,7 @@ export default function Modal() {
                                             className='w-full rounded bg-gray-600 p-3 font-bold uppercase text-white shadow hover:bg-gray-500'
                                             onClick={closeModal}
                                         >
-                                            Cerrar
+                                            Close
                                         </button>
 
                                         <button
@@ -100,8 +100,8 @@ export default function Modal() {
                                             onClick={() => handleClickFavorite(selectedRecipe)}
                                         >
                                             {favoriteExists(selectedRecipe.idDrink)
-                                                ? 'Eliminar Favorito' 
-                                                : 'Agregar a Favoritos'
+                                                ? 'Remove Favorite' 
+                                                : 'Add to Favorites'
                                             }
                                         </button>
                                     </div>

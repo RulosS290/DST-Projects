@@ -10,7 +10,7 @@ export default {
         const result = streamText({
             model: openRouter('meta-llama/llama-3.3-70b-instruct:free'),
             prompt,
-            system: 'Eres un bartender que tiene varios años de experiencia, además de proporcionar algo de historia del coctel después de servirlo',
+            system: 'You are a bartender with several years of experience. After giving the recipe, provide some history about the cocktail.',
             temperature: 0
         })
 

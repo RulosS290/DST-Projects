@@ -30,7 +30,7 @@ export default function Header() {
         // TODO: Validar
         if(Object.values(searchFilters).includes('')) {
             showNotification({
-                text: 'Todos los campos son obligatorios', 
+                text: 'All fields are required', 
                 error: true
             })
             return
@@ -57,7 +57,7 @@ export default function Header() {
                                     : 'text-white uppercase font-bold'
                             }
                         >
-                            Inicio
+                            Home
                         </NavLink>
                         <NavLink 
                             to='/Favorites'
@@ -67,7 +67,7 @@ export default function Header() {
                                     : 'text-white uppercase font-bold'
                             }
                         >
-                            Favoritos
+                            Favorites
                         </NavLink>
                         <NavLink 
                             to='/Generate'
@@ -77,7 +77,7 @@ export default function Header() {
                                     : 'text-white uppercase font-bold'
                             }
                         >
-                            Generar con IA
+                            Generate with AI
                         </NavLink>
                     </nav>
                 </div>
@@ -92,14 +92,14 @@ export default function Header() {
                                 htmlFor="ingredient"
                                 className='block text-white uppercase font-extrabold text-lg'
                             >
-                                Nombre o Ingredientes
+                                Name or Ingredients
                             </label>
                             <input 
                                 id='ingredient'
                                 type='text' 
                                 name='ingredient'
                                 className='p-3 w-full rounded-lg focus:outline-none bg-white'
-                                placeholder='Nombre o Ingrediente. Ej. Vodka, Tequila, Cafe'
+                                placeholder='Name or Ingredient. E.g., Vodka, Tequila, Coffee'
                                 onChange={handleChange}
                                 value={searchFilters.ingredient}
                             />
@@ -110,7 +110,7 @@ export default function Header() {
                                 htmlFor="category"
                                 className='block text-white uppercase font-extrabold text-lg'
                             >
-                                Categoria
+                                Category
                             </label>
                             <select
                                 id='category'
@@ -119,7 +119,7 @@ export default function Header() {
                                 onChange={handleChange}
                                 value={searchFilters.category}
                             >
-                                <option value="">-- Seleccione --</option>
+                                <option value="">-- Select --</option>
                                 {categories?.drinks.map(category => (
                                     <option
                                         key={category.strCategory}
@@ -132,7 +132,7 @@ export default function Header() {
                         </div>
                         <input 
                             type="submit" 
-                            value='Buscar Recetas'
+                            value='Search Recipes'
                             className='cursor-pointer bg-orange-800 hover:bg-orange-900 text-white font-extrabold w-full p-2 rounded-lg uppercase'
                         />
                     </form>

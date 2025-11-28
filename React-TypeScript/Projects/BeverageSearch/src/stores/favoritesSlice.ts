@@ -17,7 +17,7 @@ export const createFavoritesSlice : StateCreator<FavoritesSliceType> = (set, get
                 favorites: state.favorites.filter(favorite => favorite.idDrink !== recipe.idDrink)
             }))
             getState().showNotification({
-                text: 'Se elimino de favoritos', 
+                text: 'Removed from favorites', 
                 error: false
             })
         } else {
@@ -25,7 +25,7 @@ export const createFavoritesSlice : StateCreator<FavoritesSliceType> = (set, get
                 favorites: [...state.favorites, recipe]
             }))
             getState().showNotification({
-                text: 'Se agrego a favoritos', 
+                text: 'Added to favorites', 
                 error: false
             })
         }
