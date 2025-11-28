@@ -6,59 +6,61 @@
 
 ## 📘 Overview
 
-**Beverage Search** es una aplicación web construida con **React** y **TypeScript** que permite a los usuarios buscar bebidas y cócteles utilizando la API pública de *TheCocktailDB*.
-Además, cuenta con una funcionalidad opcional basada en **IA generativa** para crear recetas personalizadas y ofrecer contexto histórico de los cócteles.
+**Beverage Search** is a web application built with **React** and **TypeScript** that allows users to search for drinks and cocktails using the public API *TheCocktailDB*.
+It also includes an optional **AI-powered feature** that generates personalized cocktail recipes and provides historical or contextual information about each drink.
 
-Este proyecto fue desarrollado para practicar:
+This project was created to practice:
 
-* React fuertemente tipado con TypeScript
-* Manejo global de estado usando Zustand
-* Validación de respuestas API con Zod
-* Consumo de APIs con Axios
-* Integración de IA mediante OpenRouter
-* Arquitectura limpia con componentes reutilizables
+* Strongly typed React development with TypeScript
+* Global state management using Zustand
+* API response validation with Zod
+* API consumption with Axios
+* AI integration through OpenRouter
+* Clean architecture with reusable React components
+* Styling using TailwindCSS
 
 ---
 
 ## 🎯 Main Objectives
 
-* Permitir la búsqueda de bebidas por nombre.
-* Mostrar la información completa de cada bebida (ingredientes, instrucciones, imagen).
-* Validar todas las respuestas del API con Zod.
-* Centralizar el estado global de forma simple con Zustand.
-* Añadir una función opcional de IA para generar recetas personalizadas tipo bartender.
-* Practicar buenas prácticas de organización en proyectos React + TS.
+* Allow users to search for beverages by name.
+* Display detailed information for each drink (ingredients, instructions, image).
+* Validate all API responses using Zod.
+* Manage global state efficiently using Zustand.
+* Provide an optional AI feature to generate custom bartender-style recipes.
+* Apply best practices for building React + TypeScript projects.
+* Practice utility-based styling with TailwindCSS.
 
 ---
 
 ## 🧱 Features
 
-* 🔍 **Búsqueda de bebidas** por nombre.
-* 🍸 **Vista detallada** de cada cóctel.
-* ✔️ **Validación Zod** de todas las respuestas del API.
-* 🧠 **Zustand global state**, sin prop drilling.
-* ⚠️ **Manejo de errores claro y amigable**.
-* 🎨 **CSS puro** para una UI ligera y rápida.
-* 🤖 **Modo IA opcional**:
+* 🔍 **Drink search** by name.
+* 🍸 **Detailed view** of each cocktail.
+* ✔️ **Zod validation** for all API responses.
+* 🧠 **Zustand global state**, no prop drilling.
+* ⚠️ **Clear and friendly error handling**.
+* 🎨 **TailwindCSS styling**, fast and utility-based.
+* 🤖 **Optional AI Mode**:
 
-  * Genera recetas personalizadas con descripciones.
-  * Ofrece historia del cóctel.
-  * Responde como un bartender profesional.
+  * Generates custom cocktail recipes.
+  * Provides history or interesting facts.
+  * Responds in the style of an experienced bartender.
 
 ---
 
 ## 🤖 AI Usage (Optional Feature)
 
-Este proyecto incluye un módulo opcional basado en **IA generativa**, que utiliza OpenRouter para procesar prompts y generar recetas personalizadas.
+The project includes an optional **AI module** powered by **OpenRouter**, which processes user prompts and generates customized cocktail recipes.
 
-La funcionalidad permite:
+This feature allows the app to:
 
-* Crear cócteles a partir de instrucciones del usuario.
-* Incluir historia o curiosidades del cóctel.
-* Seguir un estilo de bartender profesional y experimentado.
+* Create cocktails based on user instructions.
+* Add historical or fun facts about the drink.
+* Respond using a professional bartender persona.
 
-La aplicación funciona perfectamente **sin IA**.
-La IA solo se activa si la API key está configurada.
+The app works perfectly **without AI**.
+The AI module is only enabled if an API key is provided.
 
 ### 🔧 Implementation Example
 
@@ -75,7 +77,7 @@ export default {
         const result = streamText({
             model: openRouter('meta-llama/llama-3.3-70b-instruct:free'),
             prompt,
-            system: 'Eres un bartender que tiene varios años de experiencia, además de proporcionar algo de historia del coctel después de servirlo',
+            system: 'You are a bartender with several years of experience. After giving the recipe, add a bit of history about the cocktail.',
             temperature: 0
         })
 
@@ -86,13 +88,13 @@ export default {
 
 ### 🔑 Environment Variable Required
 
-Para habilitar la IA, crea un archivo `.env` con:
+To enable AI functionality, create a `.env` file:
 
 ```
 VITE_OPENROUTER_KEY=your_api_key_here
 ```
 
-Si la API key no está presente, la app deshabilita automáticamente la generación con IA.
+If the API key is missing, the AI module will be disabled automatically.
 
 ---
 
@@ -104,8 +106,8 @@ Si la API key no está presente, la app deshabilita automáticamente la generaci
 * **Axios**
 * **Zustand**
 * **Zod**
-* **Pure CSS**
-* **OpenRouter (IA opcional)**
+* **TailwindCSS**
+* **OpenRouter (optional AI)**
 
 ---
 
@@ -118,7 +120,7 @@ npm install
 npm run dev
 ```
 
-La aplicación correrá en:
+The application will run at:
 
 👉 **[http://localhost:5173](http://localhost:5173)**
 
@@ -128,12 +130,13 @@ La aplicación correrá en:
 
 ```
 src/
- ├── components/       # Componentes reutilizables (lista, card, detalle, etc.)
- ├── store/            # Global state con Zustand
- ├── types/            # Tipados TS
- ├── schemas/          # Validadores Zod
- ├── data/             # Datos estáticos o listas
- ├── services/         # Comunicación con API externas y AI (OpenRouter)
+ ├── components/       # Reusable UI components (list, card, details, etc.)
+ ├── stores/           # Global state using Zustand
+ ├── types/            # TypeScript types
+ ├── utils/            # Zod validators
+ ├── Layout/           # Layout components
+ ├── Views/            # Screens / pages
+ ├── services/         # External API & AI (OpenRouter) services
  └── App.tsx           # Root component
 ```
 
@@ -141,14 +144,14 @@ src/
 
 ## 🔗 API Source
 
-Datos de bebidas obtenidos desde:
+Drink data provided by:
 
 **TheCocktailDB API**
 [https://www.thecocktaildb.com/api.php](https://www.thecocktaildb.com/api.php)
 
 ### 🔗 AI Provider
 
-La generación de recetas con IA utiliza:
+AI recipe generation is powered by:
 
 **OpenRouter**
 [https://openrouter.ai/](https://openrouter.ai/)
