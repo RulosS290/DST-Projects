@@ -34,9 +34,12 @@ I aim to maintain:
 | 🪙 **Crypto Price Tracker**       | React + TypeScript + Zustand + Zod  | Cryptocurrency price tracker using CryptoCompare API, schema validation (Zod) and global store.    | [Open](./React-TypeScript/Projects/Crypto)                       | [Crypto Tracker](https://cryptoapp-dst.netlify.app/)                              |
 | 🍹 **Beverage Search App**        | React + TypeScript + Zustand + Zod + AI | Search and explore cocktails using TheCocktailDB + optional AI recipe generator.      | [Open](./React-TypeScript/Projects/BeverageSearch)                  | [Beverage Search](https://beveragesearch-dst.netlify.app/)                                |
 | 🏠 **Landing Page**               | TailwindCSS                         | Minimalist landing page practicing responsive layouts and modern utility-first styling.            | [Open](./TailwindCSS/Projects/landing%20page)                    | [Landing Page](https://landingpage-dst.netlify.app/)                              |
-| ⚙️ **Full-Stack Projects**        | React + Node.js                     | REST APIs with Express + backend services.                                                         | Soon                                                             | 🔜 Coming soon                                                                    |
 
-> 🚧 **More projects are continually added** — each focused on mastering a new concept, from UI architecture to backend API development.
+## ⚙️ Full-Stack Projects
+
+| Project | Description | Link |
+|--------|-------------|------|
+| 🧩 **ProductManager** | Full-stack PERN application with REST API, React frontend, PostgreSQL, testing and Swagger documentation. | [Repository](https://github.com/RulosS290/ProductManager) |
 
 ---
 
